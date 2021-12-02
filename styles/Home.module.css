@@ -1,0 +1,17 @@
+.features_div{
+      background-color: #f4f4f4;
+      flex-grow: 1;
+}
+.handShake_div{
+      border-right: 3px solid gray;
+}
+.features{
+      height: 96%;
+      justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.features div{
+      flex: 1;
+      height: 80%;
+}
