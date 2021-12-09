@@ -1,0 +1,135 @@
+.container {
+    text-align: center;
+  }
+  .center {
+    position: relative;
+    padding: 50px 50px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 100px;
+  }
+  .center h1 {
+    font-size: 2em;
+    border-left: 5px solid dodgerblue;
+    padding: 10px;
+    color: #000;
+    letter-spacing: 5px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .center .inputbox {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 50px;
+  }
+  .center .inputbox input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid #000;
+    outline: none;
+    background: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+  }
+  .center .inputbox:last-child {
+    margin-bottom: 0;
+  }
+  .center .inputbox span {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-size: 1em;
+    transition: 0.6s;
+    font-family: sans-serif;
+  }
+  .center .inputbox input:focus ~ span,
+  .center .inputbox input:valid ~ span {
+    transform: translateX(-13px) translateY(-35px);
+    font-size: 1em;
+  }
+  .center .inputbox [type="button"] {
+    width: 100%;
+    background: dodgerblue;
+    color: #fff;
+    border: #fff;
+  }
+  .center .inputbox:hover [type="button"] {
+    background: rgb(1, 150, 38);
+  }
+  
+  .button {
+    width: 270px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+    text-transform: uppercase;
+    font-weight: 450;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #2b3eeb;
+    border: 3px solid #6b6591;
+    border-radius: 10px;
+    transition: .3s;
+    margin-right: 60px;
+  }
+  
+  .button:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  } 
+
+  .button2 {
+    width: 270px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+    text-transform: uppercase;
+    font-weight: 450;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #c91e1e;
+    border: 3px solid #6b6591;
+    border-radius: 10px;
+    transition: .3s;
+    margin-right: 60px;
+  }
+  
+  .button2:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }   

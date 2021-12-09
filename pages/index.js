@@ -6,7 +6,7 @@ import fileLogo from '../public/file.png'
 
 export default function Home() {
   return (
-    <div className={`${styles.container} d-flex flex-column align-items-stretch vh-100`}>
+     <div className={`${styles.container} d-flex flex-column align-items-stretch vh-100`}>
       <Image src={banner}></Image>
       <div className={`p-3 ${styles.features_div}`}>
         <div>
@@ -25,6 +25,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   )
 }
+
+
+
+
