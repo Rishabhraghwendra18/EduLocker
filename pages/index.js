@@ -10,18 +10,18 @@ export default function Home() {
       <Image src={banner}></Image>
       <div className={`p-3 ${styles.features_div}`}>
         <div>
-        <h3 style={{textAlign:'center',marginBottom:'0 !important'}}>Features</h3>
+          <h3 style={{ textAlign: 'center', marginBottom: '0 !important' }}>Features</h3>
         </div>
         <div className={`d-flex flex-row ${styles.features}`}>
           <div className={`handShake d-flex flex-column justify-content-center align-items-center p-2 ${styles.handShake_div}`}>
-          <Image src={deal} width={100} height={100}></Image>
-          <h4>Pay school/college fees as per the law</h4>
-          <p>No need of paying high fees pay as per smart contract</p>
+            <Image src={deal} width={100} height={100}></Image>
+            <h4>Pay school/college fees as per the law</h4>
+            <p>No need of paying high fees pay as per smart contract</p>
           </div>
           <div className="document d-flex flex-column justify-content-center align-items-center p-2">
-          <Image src={fileLogo} width={100} height={100}></Image>
-          <h4>All your docs are safe with us</h4>
-          <p>No need of paying high fees pay as per smart contract</p>
+            <Image src={fileLogo} width={100} height={100}></Image>
+            <h4>All your docs are safe with us</h4>
+            <p>No need of paying high fees pay as per smart contract</p>
           </div>
         </div>
       </div>
