@@ -1,0 +1,64 @@
+.account{
+
+    font-weight: bold;
+    text-align: center;
+    width: 240px ;
+    height: 70px;
+    padding: 10px;
+    margin-left: 410px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+.account:hover{
+    color: black;
+    cursor: pointer;
+    
+}
+
+.cancel{
+    
+    font-weight: bold;
+    text-align: center;
+    width: 240px ;
+    height: 70px;
+    padding: 22px;
+    margin-left: 820px;
+    margin-top: -73px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+
+}
+
+.cancel:hover{
+    color: black;
+    cursor: pointer;
+    
+}
+
+.titles{
+
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.lables{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 375px;
+    
+}
+ .boxes{
+    margin-left: 50px;
+    float: right;
+    margin-right: 400px;
+    border-radius: 5px;
+    background-color: lightgray;
+    border-color: transparent;
+}
