@@ -8,7 +8,7 @@ export default function Student() {
       return (
             <div >
 
-                  <div classname={`${styles.forms}`}>
+                  <div className={`${styles.forms}`}>
 
                         <form className={`${styles.titles}`}>
                               <label className={`${styles.lables}`}>
